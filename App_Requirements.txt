@@ -1,0 +1,33 @@
+Time management and productivity app:
+
+//Features
+Pie chart for visualizing each day
+7 day display
+choose between displaying it 12 hr time or 24 hour time
+Should be able to divide the days up in different parts
+Should be able to choose whether an event is recurring or only on one day
+Should be able to pick a different color for each task
+Should be able to create tasks
+Should be able to delete tasks
+Should be able to adjust tasks
+Pie charts should display time 
+
+//Non-Decided features
+Should be able to display it as a whole week or month 
+
+Classes: 
+Task:
+constructor : take in name parameter, define two fields name(String) & occurences<List>Occuence</List> 
+get and set for name
+method to addTaskToOccuences
+
+Occuence: 
+Three fields: daysPerWeek(List<String>), time(List<DateTime>), repeats(bool)
+constructor(daysPerWeek,time,repeats)
+
+User:
+tasks field: list of task
+method: create a task 
+method: get task by name
+
+Name, Time, Occurence
